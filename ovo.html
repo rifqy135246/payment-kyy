@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM OVO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: rgb(168, 15, 168);
+        }
+
+        h1 {
+            color: #000000;
+            margin: 20px 0;
+            font-size: 2vw; /* Ukuran font dinamis berdasarkan viewport */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+
+        form {
+            background: rgb(255, 255, 255);
+            width: 500px; 
+            height: 600px; /* Panjang memanjang ke bawah */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transform-origin: top; /* Agar transformasi bisa menyesuaikan dari atas */
+        }
+
+        h2 {
+            font-size: 2.5vw; /* Ukuran dinamis */
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+            font-size: 1.5vw; /* Mengatur ukuran teks agar menyesuaikan formulir memanjang */
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1.5vw; /* Disesuaikan agar responsif */
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #33ff00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.5vw;
+        }
+
+        button:hover {
+            background-color: #2fdd0c;
+        }
+
+        a{
+            font-size: 1.7vw;
+            text-decoration: none;
+            color: #000000;
+        }
+
+        p{
+            font-size: 1VW;
+            color: #000000;
+        }
+
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 5vw;
+            }
+
+            h2,
+            label,
+            button {
+                font-size: 1.2vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Informasi Akun OVO</h1>
+    <div class="container">
+        <form>
+            <h2>Informasi Pembayaran</h2>
+            <label>NOPE KYY JB</label>
+            <label>Nama: Rifqy</label>
+            <label>E-wallet: OVO</label>
+            <label>No E-Wallet: 087897093159</label>
+            <div style="flex-grow: 1;"></div>
+            <p>DATA DIATAS ADALAH PAYMENT SELLER, TF SESUAI NOMOR YANG DIATAS!!</p>
+            <button type="submit"><a href="https://wa.me/6287897093159">HARAP KIRIM BUKTI TRX DISINI!!</a></button>
+        </form>
+    </div>
+</body>
+</html>

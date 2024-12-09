@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 24px;
+            color: #000000;
+            margin: 20px 0;
+        }
+        .button {
+            display: block;
+            width: 90%;
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 15px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button.dana { background-color: #17a2b8; }
+        .button.gopay { background-color: rgb(13, 206, 206); }
+        .button.ovo { background-color: #7737f0; }
+        .button.pulsa-telkomsel { background-color: #ce192b; }
+        .button.pulsa-xl { background-color: #1b03a5; }
+        .note {
+            font-size: 14px;
+            color: #555;
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: auto;
+            padding: 10px;
+            background-color: #5d9de2;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Informasi Pembayaran</h1>
+    <a href="dana.html" class="button dana" target="_blank">DANA</a>
+    <a href="gopay.html" class="button gopay" target="_blank">GOPAY</a>
+    <a href="ovo.html" class="button ovo" target="_blank">OVO</a>
+    <a href="telkom.html" class="button pulsa-telkomsel" target="_blank">TELKOMSEL</a>
+    <a href="xl.html" class="button pulsa-xl" target="_blank">XL</a>
+    <footer>
+        &copy; 2024 Kyy JB. All Rights Reserved.
+    </footer>
+</body>
+</html>
